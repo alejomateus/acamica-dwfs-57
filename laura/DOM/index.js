@@ -1,16 +1,36 @@
-let newItem = document.getElementById("headerMenu");
-newItem.innerHTML += "<li>Item 5<li>"
+// let newItem = document.getElementById("headerMenu");
+// newItem.innerHTML += "<li>Item 5<li>"
 
-let stronger = document.getElementById("strong");
-stronger.style.fontWeight = "bold"
+// let stronger = document.getElementById("strong");
+// stronger.style.fontWeight = "bold"
 
-let interval = setInterval(intervalo, 5000);
+// let interval = setInterval(intervalo, 5000);
 
-function intervalo(){
-    let image1 = document.getElementById("image1");
-    image1.src = "https://www.40defiebre.com/wp-content/uploads/2015/10/imagenes.png";
+// function intervalo(){
+//     let image1 = document.getElementById("image1");
+//     image1.src = "https://www.40defiebre.com/wp-content/uploads/2015/10/imagenes.png";
+// }
+
+
+// let changePosition = document.getElementById("imageRight");
+// changePosition.style.order = 0
+
+
+
+
+let logo= document.getElementById("logo");
+logo.addEventListener ( "mouseover", mouseover )
+logo.addEventListener ( "mouseout", mouseout )
+
+function mouseover(){
+    logo.style.borderColor= "red "
+    
+
+}
+
+function mouseout (){
+    logo.style.borderColor= "black "
+
 }
 
 
-let changePosition = document.getElementById("imageRight");
-changePosition.style.order = 0
