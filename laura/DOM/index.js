@@ -16,7 +16,10 @@
 // changePosition.style.order = 0
 
 
-
+// Con el click en el título pide al usuario que ingrese un texto a través de prompt.
+// Reemplaza el título existente por el que ingresó el usuario.
+// Almacena el título ingresado en el local storage
+// Muestra siempre el último título ingresado (reinicia el navegador para probar)  
 
 let logo= document.getElementById("logo");
 logo.addEventListener ( "mouseover", mouseover )
