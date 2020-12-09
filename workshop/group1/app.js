@@ -30,14 +30,14 @@ class productsClass {
 }
 
 let product1 = new productsClass();
-    product1.id= 1;
+    product1.id= products.length+1;
     product1.brand= 'Nike';
     product1.name= 'zapatillas';
     product1.value= 1600;
     product1.img= 'https=//via.placeholder.com/300x300';
 
 let product2 = new productsClass();
-    product2.id= 2;
+    product2.id= products.length+1;
     product2.brand= 'Adidas';
     product2.name= 'zapatillas urbana';
     product2.value= 1500;
@@ -45,28 +45,28 @@ let product2 = new productsClass();
 
 
 let product3 = new productsClass();
-    product3.id= 3;
+    product3.id= products.length+1;
     product3.brand= 'Grimoldi';
     product3.name= 'zapato caballero';
     product3.value= 5000;
     product3.img= 'https=//via.placeholder.com/300x300';
 
 let product4 = new productsClass();
-    product4.id= 4;
+    product4.id= products.length+1;
     product4.brand= 'Sarkany';
     product4.name= 'zapato mujer';
     product4.value= 7000;
     product4.img= 'https=//via.placeholder.com/300x300';
 
 let product5 = new productsClass();
-    product5.id= 5;
+    product5.id= products.length+1;
     product5.brand= 'Vans';
     product5.name= 'zapatillas urbanas';
     product5.value= 6500;
     product5.img= 'https=//via.placeholder.com/300x300';
 
 let product6 = new productsClass();
-    product6.id= 6;
+    product6.id= products.length+1;
     product6.brand= 'Converse';
     product6.name= 'zapatilla street';
     product6.value= 3400;
@@ -75,15 +75,16 @@ let product6 = new productsClass();
 products.push(product1, product2, product3, product4, product5, product6);
 
 
-
-let carrito = [];
-let total = 0;
-
-
-let containerProducts = document.getElementById('');
+let containerProducts = document.getElementById('containerProducts');
 
 for (let i = 0; i < products.length; i++) {
+    let containerNewProducts = document.createElement('div');
 
+    containerNewProducts.innerHTML = //codigo HTML del div producto ;
+
+    containerProducts.appendChild(containerNewProducts);
 }
 
 
+let carrito = [];
+let total = 0;
