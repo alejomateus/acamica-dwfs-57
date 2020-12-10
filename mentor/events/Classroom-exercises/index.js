@@ -35,11 +35,13 @@ mainTitle.addEventListener("click", function () {
 });
 let viewMore = document.getElementById("viewMore");
 
-viewMore.addEventListener("click", function () {
-   let secondSection = document.getElementById("secondSection");
-   let imageContainer = document.getElementById("imageContainer");
-    let newElement = document.createElement("div");
-    newElement.className="imageContainer";
-    newElement.innerHTML = imageContainer.innerHTML;
-   secondSection.appendChild(newElement);
-});
+viewMore.addEventListener("click", createNewElement);
+function createNewElement () {
+        let secondSection = document.getElementById("secondSection");
+        let imageContainer = document.getElementById("imageContainer");
+         let newElement = document.createElement("div");
+         newElement.className="imageContainer";
+         newElement.innerHTML = imageContainer.innerHTML;
+        secondSection.appendChild(newElement);
+     
+}
