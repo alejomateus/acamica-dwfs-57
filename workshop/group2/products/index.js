@@ -123,8 +123,8 @@ for(let i = 0; i < products.length; i++){
    '<p>'+products[i].descripcion+'</p>'+'<button class="btn" id="button">Agregar al carrito</button> </div>'
    
 
-
 container.appendChild(container_product);
 
 }
+
 
