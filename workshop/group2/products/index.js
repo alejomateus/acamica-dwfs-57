@@ -120,16 +120,11 @@ for(let i = 0; i < products.length; i++){
    let container_product = document.createElement("div");
 
    container_product.innerHTML = '<div class="articulo">'+'<img src="'+products[i].image+'">'+'<span class="precio">Precio $'+products[i].precio+'</span>'+
-   '<p>'+products[i].descripcion+'</p>'+'<button class="btn" id="button">Comprar</button> </div>'
+   '<p>'+products[i].descripcion+'</p>'+'<button class="btn" id="button">Agregar al carrito</button> </div>'
    
-
 
 container.appendChild(container_product);
 
 }
-
-
-
-
 
 
