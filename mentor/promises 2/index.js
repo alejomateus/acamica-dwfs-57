@@ -51,6 +51,7 @@ getPokemonsInfo()])
             element.innerHTML = "<strong>" + pokemons[i].name +
                 "</strong><br><img src='" +
                 pokemons[i].sprites.front_default + "'>";
+            element.className = 'border';
             container.appendChild(element);
         }
     })
